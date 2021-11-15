@@ -25,12 +25,12 @@ export default function Home ({ allPostsData }) {
         <p>a nice boy on the internet</p>
         <p>
           some links: {' '}
-          <a href="https://twitter.com/max_steing">twitter</a>{' '}
-          <a href="https://instagram.com/maxsg.online">instagram</a>{' '}
-          <a href="https://medium.com/@msteing">blog</a>{' '}
-          <a href="https://substack.com/profile/6126141-max-stein-golenbock">newsletter</a>{' '}
-          <a href="https://maxsg.squarespace.com">art</a>{' '}
-          <a href="https://www.instagram.com/msteing.photo/">photo</a>
+          <a href="https://twitter.com/max_steing">twitter</a>{'  '}
+          <a href="https://instagram.com/maxsg.online">instagram</a>{'  '}
+          <a href="https://medium.com/@msteing">blog</a>{'  '}
+          <a href="https://substack.com/profile/6126141-max-stein-golenbock">newsletter</a>{'  '}
+          <a href="https://maxsg.squarespace.com">art</a>{'  '}
+          <a href="https://www.instagram.com/msteing.photo/">photos</a>
         </p>
         <p>
             or check out this <Link href="/posts/first-post"><a>example blog</a></Link>{' '}
@@ -38,7 +38,7 @@ export default function Home ({ allPostsData }) {
         </p>
       </section>
 
-    {/* }
+    {/* 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
